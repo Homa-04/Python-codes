@@ -1,0 +1,10 @@
+even_numbers = []
+count = 0
+while count < 10:
+    number = int(input("Enter a number: "))
+    if number % 2 == 0:
+        even_numbers.append(number)
+        count += 1
+
+for num in even_numbers:
+    print(num)
